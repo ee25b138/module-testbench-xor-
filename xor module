@@ -1,0 +1,5 @@
+module xorgate(a,b,c,d,y);
+input a,b,c,d;
+output y;
+xor x(y,a,b,c,d);
+endmodule
